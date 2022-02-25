@@ -1,0 +1,14 @@
+categories:
+  - title: 'Category one'
+    label: '1'
+  - title: 'Category two'
+    label: '2'
+exclude-labels:
+  - invalid
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-title-escapes: '\<*_&@'
+template: |
+  $CHANGES
+tag-template: $NEXT_PATCH_VERSION
+version-template: $MAJOR.$MINOR.$PATCH
+name-template: $NEXT_PATCH_VERSION
